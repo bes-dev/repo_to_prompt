@@ -29,7 +29,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'repo_to_prompt = repo_to_prompt.cli:main',
+            'repo2prompt = repo_to_prompt.cli:main',
         ],
     },
     classifiers=[

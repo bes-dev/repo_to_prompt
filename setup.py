@@ -18,7 +18,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='repo_to_prompt',
-    version='0.0.1',
+    version='0.1.0',
     description='A tool to convert repo to prompt',
     author='Sergei Belousov aka BeS',
     author_email='sergei.o.belousov@gmail.com',

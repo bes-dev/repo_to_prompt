@@ -18,11 +18,13 @@ from setuptools import setup, find_packages
 
 setup(
     name='repo_to_prompt',
-    version='0.0.1',
+    version='0.0.2',
     description='A tool to convert repo to prompt',
     author='Sergei Belousov aka BeS',
     author_email='sergei.o.belousov@gmail.com',
     url='https://github.com/bes-dev/repo_to_prompt.git',
+    long_description=open("README.md", encoding="utf-8").read(),
+    long_description_content_type="text/markdown",
     packages=find_packages(exclude=[".git", ".gitignore"]),
     install_requires=[
         'pathspec',

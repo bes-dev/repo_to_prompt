@@ -26,10 +26,12 @@ setup(
     packages=find_packages(exclude=[".git", ".gitignore"]),
     install_requires=[
         'pathspec',
+        'textwrap',
+        'ast'
     ],
     entry_points={
         'console_scripts': [
-            'repo2prompt = repo_to_prompt.cli:main',
+            'repo_to_prompt = repo_to_prompt.cli:main',
         ],
     },
     classifiers=[

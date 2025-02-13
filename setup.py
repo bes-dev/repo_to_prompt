@@ -18,7 +18,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='repo_to_prompt',
-    version='0.0.2',
+    version='0.0.3',
     description='A tool to convert repo to prompt',
     author='Sergei Belousov aka BeS',
     author_email='sergei.o.belousov@gmail.com',
@@ -28,8 +28,7 @@ setup(
     packages=find_packages(exclude=[".git", ".gitignore"]),
     install_requires=[
         'pathspec',
-        'textwrap',
-        'ast'
+        'textwrap'
     ],
     entry_points={
         'console_scripts': [
